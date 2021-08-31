@@ -5,7 +5,10 @@
 
 <head>
 
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+
     <title>Mi web</title>
+
 
 </head>
 
@@ -22,12 +25,12 @@
     <h6>Esto es un h6</h6>
 
     <!-----Parrafos---->
-    <p>
+    <p id="parrafo">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur numquam magnam provident, sint ea
         reprehenderit ipsum voluptates nobis, exercitationem aliquam, voluptatibus fugiat labore nam itaque sit mollitia
         repudiandae ab. Sequi.
     </p>
-    <p>
+    <p class="letraVerde">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus autem perferendis cupiditate
         ratione ipsa, dolorem nobis nostrum minima modi, molestiae, atque numquam. Nihil repellendus harum rem minus
         quasi quae!
@@ -36,13 +39,50 @@
     <hr>
 
     <!---Salto de linea br y espaciones con &nbsp;-->
-    hola mundo <br>
-    esto son dos  &nbsp; lineas
+    <div class="letraVerde">
+        hola mundo <br>
+        esto son dos &nbsp; lineas
+    </div>
+
 
     <!---Contenedor---->
-    <div style="background-color: brown; border-radius: 50%;">
-        Esto es un div <span>con un span</span>
+    <div>
+        Esto es un div <span class="letraVerde">con un span</span>
     </div>
+
+    <span>Listado</span>
+    <!---Lista-->
+    <ul>
+        <!--Items-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <div id="contTabla">
+        <h1>Tabla</h1>
+        <!----Tabla----->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+            </tr>
+            <!---tr define una fila y td una columna-->
+            <tr>
+                <td>Columna 1</td>
+                <td>Columna 2</td>
+                <td>Columna 3</td>
+            </tr>
+            <tr>
+                <td>Columna 1</td>
+                <td>Columna 2</td>
+                <td>Columna 3</td>
+            </tr>
+        </table>
+    </div>
+
 
 </body>
 

@@ -1,0 +1,24 @@
+
+#parrafo{
+    color: blue;
+}
+
+.letraVerde{
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+}
+/*
+Esto es un comentario
+*/
+#contTabla{
+    text-align: center;
+    margin-left: 50%;
+    background-color: green;
+}
+
+table{
+    border: 1px solid;
+}
+
